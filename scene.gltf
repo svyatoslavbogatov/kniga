@@ -1,188 +1,270 @@
 {
-    "asset" : {
-        "generator" : "Khronos glTF Blender I/O v1.7.33",
-        "version" : "2.0"
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 2884,
+      "max": [
+        228.13365173339844,
+        133.34600830078125,
+        146.1553955078125
+      ],
+      "min": [
+        -228.13365173339844,
+        -133.34600830078125,
+        -146.1553955078125
+      ],
+      "type": "VEC3"
     },
-    "scene" : 0,
-    "scenes" : [
+    {
+      "bufferView": 2,
+      "byteOffset": 34608,
+      "componentType": 5126,
+      "count": 2884,
+      "max": [
+        0.99998712539672852,
+        0.99929714202880859,
+        0.98516058921813965
+      ],
+      "min": [
+        -0.99989360570907593,
+        -0.99892455339431763,
+        -0.9977603554725647
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 2884,
+      "max": [
+        0.999988853931427,
+        0.99796563386917114,
+        0.99972212314605713,
+        1
+      ],
+      "min": [
+        -0.99998795986175537,
+        -0.99954253435134888,
+        -0.9993099570274353,
+        -1
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 2884,
+      "max": [
+        0.99453455209732056,
+        1.0004860162734985
+      ],
+      "min": [
+        2.2463500499725342e-06,
+        0.011602401733398438
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 11838,
+      "max": [
+        2883
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "AlexChuchvaga (https://sketchfab.com/AlexChuchvaga)",
+      "license": "CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)",
+      "source": "https://sketchfab.com/models/09544c73158c4947815ff6d4c57c6e2e",
+      "title": "Paladin's book"
+    },
+    "generator": "Sketchfab-3.44.1",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 47352,
+      "byteOffset": 0,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 23072,
+      "byteOffset": 47352,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 69216,
+      "byteOffset": 70424,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 46144,
+      "byteOffset": 139640,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 185784,
+      "uri": "scene.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "textures/Scene_-_Root_emissive.png"
+    },
+    {
+      "uri": "textures/Scene_-_Root_metallicRoughness.png"
+    },
+    {
+      "uri": "textures/Scene_-_Root_baseColor.png"
+    },
+    {
+      "uri": "textures/Scene_-_Root_normal.png"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "emissiveFactor": [
+        0.99275914629999995,
+        0.99275914629999995,
+        0.99275914629999995
+      ],
+      "emissiveTexture": {
+        "index": 0,
+        "texCoord": 0
+      },
+      "name": "Scene_-_Root",
+      "normalTexture": {
+        "index": 3,
+        "scale": 1,
+        "texCoord": 0
+      },
+      "occlusionTexture": {
+        "index": 1,
+        "strength": 0.65415396339999998,
+        "texCoord": 0
+      },
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "baseColorTexture": {
+          "index": 2,
+          "texCoord": 0
+        },
+        "metallicFactor": 1,
+        "metallicRoughnessTexture": {
+          "index": 1,
+          "texCoord": 0
+        },
+        "roughnessFactor": 1
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
         {
-            "name" : "Scene",
-            "nodes" : [
-                0,
-                1
-            ]
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 4,
+          "material": 0,
+          "mode": 4
         }
-    ],
-    "nodes" : [
-        {
-            "mesh" : 0,
-            "name" : "Unnamed Copy",
-            "rotation" : [
-                0,
-                0.8400935530662537,
-                0,
-                0.5424415469169617
-            ],
-            "scale" : [
-                0.03999999910593033,
-                0.03999999910593033,
-                0.03999999910593033
-            ]
-        },
-        {
-            "mesh" : 1,
-            "name" : "Unnamed Copy.001",
-            "rotation" : [
-                0,
-                0.8400935530662537,
-                0,
-                0.5424415469169617
-            ],
-            "scale" : [
-                0.03999999910593033,
-                0.03999999910593033,
-                0.03999999910593033
-            ]
-        }
-    ],
-    "materials" : [
-        {
-            "doubleSided" : true,
-            "name" : "Material.001",
-            "pbrMetallicRoughness" : {
-                "baseColorFactor" : [
-                    0,
-                    0.8000000715255737,
-                    0.016174592077732086,
-                    1
-                ],
-                "metallicFactor" : 0,
-                "roughnessFactor" : 0.4000000059604645
-            }
-        }
-    ],
-    "meshes" : [
-        {
-            "name" : "Unnamed Copy",
-            "primitives" : [
-                {
-                    "attributes" : {
-                        "POSITION" : 0,
-                        "NORMAL" : 1
-                    },
-                    "indices" : 2,
-                    "material" : 0
-                }
-            ]
-        },
-        {
-            "name" : "Unnamed Copy.001",
-            "primitives" : [
-                {
-                    "attributes" : {
-                        "POSITION" : 3,
-                        "NORMAL" : 4
-                    },
-                    "indices" : 5,
-                    "material" : 0
-                }
-            ]
-        }
-    ],
-    "accessors" : [
-        {
-            "bufferView" : 0,
-            "componentType" : 5126,
-            "count" : 922484,
-            "max" : [
-                12.436370849609375,
-                39.98525619506836,
-                13.48308277130127
-            ],
-            "min" : [
-                -12.436362266540527,
-                -0.016666734591126442,
-                -12.61572265625
-            ],
-            "type" : "VEC3"
-        },
-        {
-            "bufferView" : 1,
-            "componentType" : 5126,
-            "count" : 922484,
-            "type" : "VEC3"
-        },
-        {
-            "bufferView" : 2,
-            "componentType" : 5125,
-            "count" : 924495,
-            "type" : "SCALAR"
-        },
-        {
-            "bufferView" : 3,
-            "componentType" : 5126,
-            "count" : 26472,
-            "max" : [
-                12.693198204040527,
-                2.497344732284546,
-                12.693185806274414
-            ],
-            "min" : [
-                -12.69318962097168,
-                -0.01227417029440403,
-                -12.693196296691895
-            ],
-            "type" : "VEC3"
-        },
-        {
-            "bufferView" : 4,
-            "componentType" : 5126,
-            "count" : 26472,
-            "type" : "VEC3"
-        },
-        {
-            "bufferView" : 5,
-            "componentType" : 5123,
-            "count" : 26679,
-            "type" : "SCALAR"
-        }
-    ],
-    "bufferViews" : [
-        {
-            "buffer" : 0,
-            "byteLength" : 11069808,
-            "byteOffset" : 0
-        },
-        {
-            "buffer" : 0,
-            "byteLength" : 11069808,
-            "byteOffset" : 11069808
-        },
-        {
-            "buffer" : 0,
-            "byteLength" : 3697980,
-            "byteOffset" : 22139616
-        },
-        {
-            "buffer" : 0,
-            "byteLength" : 317664,
-            "byteOffset" : 25837596
-        },
-        {
-            "buffer" : 0,
-            "byteLength" : 317664,
-            "byteOffset" : 26155260
-        },
-        {
-            "buffer" : 0,
-            "byteLength" : 53358,
-            "byteOffset" : 26472924
-        }
-    ],
-    "buffers" : [
-        {
-            "byteLength" : 26526284,
-            "uri" : "scene.bin"
-        }
-    ]
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "name": "RootNode (gltf orientation matrix)",
+      "rotation": [
+        -0.70710678118654746,
+        -0,
+        -0,
+        0.70710678118654757
+      ]
+    },
+    {
+      "children": [
+        2
+      ],
+      "name": "RootNode (model correction matrix)"
+    },
+    {
+      "children": [
+        3
+      ],
+      "name": "52e864bd0bb940759acef0ea5e4ad420.obj.cleaner.materialmerger.gles"
+    },
+    {
+      "mesh": 0,
+      "name": ""
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "OSG_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    },
+    {
+      "sampler": 0,
+      "source": 3
+    }
+  ]
 }
+
